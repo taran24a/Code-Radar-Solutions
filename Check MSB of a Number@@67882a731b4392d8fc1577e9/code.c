@@ -10,6 +10,6 @@ int main() {
         printf("Set");
     }
     else
-    print("Not Set");
+    printf("Not Set");
     return 0;
 }
