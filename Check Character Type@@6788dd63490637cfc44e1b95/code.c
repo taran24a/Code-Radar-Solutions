@@ -6,14 +6,14 @@ int main() {
     scanf("%c",&ch);
 
     if(isdigit(ch)){
-        printf("Digit");
+        printf("Digit\n");
     }
     
     else if(isalpha(ch)){
-        char lower = tolower(ch);
+        char low = tolower(ch);
     
     
-     if(ch=='a'||ch== 'e' || ch == 'i' ||ch == 'o' || ch== 'u'){
+     if(low=='a'||low == 'e' || low == 'i' || low == 'o' || low == 'u'){
         printf("Vowel");
 
 
