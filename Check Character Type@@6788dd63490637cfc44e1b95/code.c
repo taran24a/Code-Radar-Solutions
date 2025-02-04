@@ -20,7 +20,7 @@ int main() {
         
     }
     else{
-        printf("Consonant")
+        printf("Consonant");
     }
     }
     else {
