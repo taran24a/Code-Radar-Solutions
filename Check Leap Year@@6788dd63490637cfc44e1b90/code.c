@@ -5,8 +5,8 @@ int main() {
     int year;
     scanf("%d",&year);
 
-    if(a%4==0){
-        if(a%4!=0){
+    if(year%4==0){
+        if(year%4!=0){
             printf("Leap Year");
         }
 
