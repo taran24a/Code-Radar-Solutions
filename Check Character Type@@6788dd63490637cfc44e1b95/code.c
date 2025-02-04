@@ -3,7 +3,7 @@
 
 int main() {
     char ch;
-    scanf("%d",&ch);
+    scanf("%c",&ch);
 
     if(isdigit(ch)){
         printf("Digit");
