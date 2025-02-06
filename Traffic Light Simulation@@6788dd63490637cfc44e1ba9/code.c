@@ -30,7 +30,4 @@ int main() {
 
 
 
-        case
-    }
-    return 0;
-}
+     
