@@ -1,30 +1,23 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main() {
-    int num, i, isPrime = 1;  // Assume the number is prime initially
+int main(){
+    int a, isPrime = 1;
+    scanf("%d",&a);
 
-    
-   
-    scanf("%d", &num);
+    if(a<=1){
+        printf("Not Prime");
 
-    // Prime numbers must be greater than 1
-    if (num <= 1) {
-     
-
-    // Check divisibility from 2 to sqrt(num)
-    for (i = 2; i * i <= num; i++) {
-        if (num % i == 0) {  // If divisible, it's not prime
+    }
+    for(i = 2; i*i<=a; i++){
+        if(a%i == 0){
             isPrime = 0;
             break;
         }
     }
-    }
-
-    // Output result
-    if (isPrime)
+    if(isPrime)
         printf("Prime");
     else
-        printf("Not Prime");
-
-    return 0;
+    printf("Not Prime");    
+    
+return 0;
 }
