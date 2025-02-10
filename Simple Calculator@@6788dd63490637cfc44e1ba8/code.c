@@ -26,7 +26,7 @@ int main() {
         else
         printf("error");
         break;
-        
+
 
         default:
         printf("error");
@@ -34,4 +34,5 @@ int main() {
       
     }
     return 0;
+}
 }
