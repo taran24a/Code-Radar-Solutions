@@ -7,10 +7,11 @@ int main() {
    scanf("%d",&n);
 
    for(int i = 1; i<=n; i++){
-    printf("*\n");
+    
     for(int j = i; j<=n; j++){
-        printf("");
+        printf("\n");
     }
+    printf("*");
     
    }
    printf("\n");
