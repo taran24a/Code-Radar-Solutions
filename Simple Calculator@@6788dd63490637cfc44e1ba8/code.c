@@ -4,7 +4,7 @@
 int main() {
     int a,b;
     char ch;
-    scanf("%d%d%c",&a, &b, &ch);
+    scanf("%d %d %c",&a, &b, &ch);
     
 
     switch(ch){
@@ -21,8 +21,12 @@ int main() {
         break;
 
         case '/':
+        if(b!=0){
         printf("%d",a/b);
+        else
+        printf("error");
         break;
+        
 
         default:
         printf("error");
