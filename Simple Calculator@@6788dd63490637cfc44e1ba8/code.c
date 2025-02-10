@@ -21,7 +21,7 @@ int main() {
         break;
 
         case '/':
-        if(b!=0){
+        if(b!=0)
         printf("%d",a/b);
         else
         printf("error");
@@ -32,7 +32,7 @@ int main() {
         printf("error");
 
       
-    }
+    
     return 0;
 }
 }
