@@ -3,7 +3,7 @@ int main(){
     int n;
     scanf("%d",&n);
 
-    int num = n<<31;
+    int num = 1<<31;
     if(num==1){
         printf("1");
     }
