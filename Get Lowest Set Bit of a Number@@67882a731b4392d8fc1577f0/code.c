@@ -5,9 +5,9 @@ int main(){
 
     
     if(n&1){
-        printf("1");
+        printf("1\n");
     }
     else
-    printf("0");
+    printf("0\n");
     return 0;
 }
