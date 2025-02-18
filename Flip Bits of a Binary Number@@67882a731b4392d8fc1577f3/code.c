@@ -10,9 +10,8 @@ int main() {
     // Flip all bits using bitwise NOT (~)
     flipped = ~num;
 
-    // Output result
-    printf("Original number: %d\n", num);
-    printf("After flipping all bits: %d\n", flipped);
+    
+    printf("%d\n", flipped);
 
     return 0;
 }
