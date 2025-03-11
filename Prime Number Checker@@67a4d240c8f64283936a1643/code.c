@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int prime(int);
+
 int prime(int a){
      is_prime = 1;
     for(int i=2; i*i<=a; i++){
