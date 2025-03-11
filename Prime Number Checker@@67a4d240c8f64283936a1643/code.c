@@ -2,7 +2,7 @@
 
 int prime(int);
 int prime(int a){
-    int is_prime = 1;
+     is_prime = 1;
     for(int i=2; i*i<=a; i++){
         if(i%a==0){
             is_prime =0;
@@ -18,7 +18,7 @@ int prime(int a){
 }
 
 int main(){
-    int a;
+    int a,is_prime;
     scanf("%d",&a);
     prime(int a);
     return 0;
