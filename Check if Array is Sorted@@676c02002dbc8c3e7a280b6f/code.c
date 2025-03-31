@@ -15,7 +15,12 @@ int main(){
     if(arr[0]>arr[n-1]){
         printf("Not Sorted");
         break;
-    }}
+    }
+    if(arr[0]<arr[n-1])
+    printf("Sorted");
+    
+    }
+
     
     
     
