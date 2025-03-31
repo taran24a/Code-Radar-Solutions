@@ -17,7 +17,7 @@ int main(){
     }
     int k;
     scanf("%d",&k);
-    k = k%n;
+    
     rotate(arr,0,n-1);
     rotate(arr,0,k-1);
     rotate(arr,k-1,n-1);
