@@ -8,7 +8,7 @@ int check(int arr[],int n){
         return arr[i];
         }
     }
-    return -1;
+    return arr[i];
 }
 int main(){
     int n;
