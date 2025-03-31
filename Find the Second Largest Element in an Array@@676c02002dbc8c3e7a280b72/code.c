@@ -2,12 +2,12 @@
 
     int check( int arr[],int n,int * smax,int * max){
     for(int i = 0;i<n; i++){
-        if(arr[i]>*max){
+        if(arr[i]> *max){
            * max = arr[i];
         }
     }
     for(int i=0; i<n; i++){
-        if(arr[i]>*smax && arr[i]<*max){
+        if(arr[i]> *smax && arr[i]< *max){
             * smax = arr[i];
             return *smax;
         }
