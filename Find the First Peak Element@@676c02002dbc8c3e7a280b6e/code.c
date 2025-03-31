@@ -20,7 +20,8 @@ int main(){
     int result = check(arr,n);
     
         printf("%d",result);
+        return 0;
     }
+
     
-    return 0;
-}
+   
