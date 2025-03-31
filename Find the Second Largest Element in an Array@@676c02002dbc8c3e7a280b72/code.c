@@ -28,7 +28,7 @@ int main(){
     for(int i =0; i<=n-1; i++){
         scanf("%d",&arr[i]);
     }
-    check(arr);
+    check(arr,n,smax,max);
     
     printf("%d",smax);
     return 0;
