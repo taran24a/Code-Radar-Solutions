@@ -21,4 +21,5 @@ int main(){
         }
     }
     printf("%d",smax);
+    return 0;
 }
