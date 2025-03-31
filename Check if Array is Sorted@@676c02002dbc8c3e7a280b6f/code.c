@@ -14,9 +14,11 @@ int main(){
     for(int i =0; i<n; i++)
     if(arr[0]>arr[n-1]){
         printf("Not Sorted");
+        break;
     }
     else
     printf("Sorted");
+    break;
     
 }
     check(arr);
