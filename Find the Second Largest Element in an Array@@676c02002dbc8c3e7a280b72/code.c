@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-    int check( int arr[],int n){
+    int check( int arr[],int n,int smax,int max){
     for(int i = 0;i<n; i++){
         if(arr[i]>max){
             max = arr[i];
