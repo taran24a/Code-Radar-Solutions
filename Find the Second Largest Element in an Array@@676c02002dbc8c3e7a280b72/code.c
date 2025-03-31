@@ -11,7 +11,7 @@ int main(){
     for(int i =0; i<=n-1; i++){
         scanf("%d",&arr[i]);
     }
-    int check(arr){
+    int check(arr[]){
     for(int i = 0;i<n; i++){
         if(arr[i]>max){
             max = arr[i];
