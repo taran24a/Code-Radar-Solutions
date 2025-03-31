@@ -17,6 +17,11 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d",&arr[i]);
     }
-    check(arr,n);
+    int result = check(arr,n);
+    if(result != -1){
+        printf("%d",result);
+    }
+    else
+    printf("%d",-1);
     return 0;
 }
