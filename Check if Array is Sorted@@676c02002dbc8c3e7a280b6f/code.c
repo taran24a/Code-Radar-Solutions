@@ -18,7 +18,7 @@ int main(){
     }
     else
     printf("Sorted");
-    break;
+    
     
 }
     check(arr);
