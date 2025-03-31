@@ -1,10 +1,10 @@
 #include<stdio.h>
 
 
-int check(int arr[],int n){
+int check(int arr[],int n,int a){
     for(int i=0; i<n; i++){
         if(arr[i]>arr[i+1] && arr[i]> arr[i-1])
-        int a = arr[i];
+        a = arr[i];
         return a;
     }
 }
