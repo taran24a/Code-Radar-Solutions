@@ -13,7 +13,7 @@
             
         }
     }
-        if(*smax ==0){
+        if(*smax == INT_MIN){
         return -1;
         }
         return *smax;
