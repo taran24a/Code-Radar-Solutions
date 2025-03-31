@@ -18,6 +18,7 @@ int main(){
     }
     if(arr[0]<arr[n-1])
     printf("Sorted");
+    break;
     
     }
 
