@@ -11,14 +11,14 @@
             *smax = arr[i];
             
         }
-        
-        if(*smax ==0)
+    }
+        if(*smax ==0){
         return -1;
-
+        }
         return *smax;
         
     }
-    }
+    
 
 int main(){
 
