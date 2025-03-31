@@ -8,7 +8,7 @@ int check(int arr[],int n){
         return arr[i];
         }
     }
-    return -1;
+    return arr[n-1];
 }
 int main(){
     int n;
@@ -18,10 +18,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int result = check(arr,n);
-    if(result != -1){
+    
         printf("%d",result);
     }
-    else
-    printf("%d",-1);
+    
     return 0;
 }
