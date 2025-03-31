@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<limits.h>
 
     int check( int arr[],int n,int *smax,int  *max){
     for(int i = 0;i<n; i++){
@@ -25,8 +26,8 @@ int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
-    int  max = arr[0];
-    int  smax = arr[0];
+    int  max = INT_MIN;
+    int  smax = INT_MIN;
 
     for(int i =0; i<=n-1; i++){
         scanf("%d",&arr[i]);
