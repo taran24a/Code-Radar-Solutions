@@ -18,12 +18,8 @@ int main(){
     int k;
     scanf("%d",&k);
     k = k%n;
-    if(k>0){
-        for(int i =0; i<n; i++){
-        printf("%d\n",arr[i]);
-
-    }
-    }
+    
+    
     
     rotate(arr,0,n-1);
     rotate(arr,0,k-1);
