@@ -22,14 +22,14 @@ int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
-    int max = 0;
-    int smax = 0;
+    int * max = 0;
+    int  *smax = 0;
 
     for(int i =0; i<=n-1; i++){
         scanf("%d",&arr[i]);
     }
-    check(arr,n,smax,max);
+    check(arr,n,*smax,*max);
     
-    printf("%d",smax);
+    printf("%d",*smax);
     return 0;
 }
