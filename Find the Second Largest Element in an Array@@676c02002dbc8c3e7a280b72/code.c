@@ -1,18 +1,21 @@
 #include<stdio.h>
 
-    int check( int arr[],int n,int * smax,int * max){
+    int check( int arr[],int n,int *smax,int  *max){
     for(int i = 0;i<n; i++){
         if(arr[i]> *max){
-           * max = arr[i];
+           *max = arr[i];
         }
     }
     for(int i=0; i<n; i++){
         if(arr[i]> *smax && arr[i]< *max){
-            * smax = arr[i];
-            return *smax;
+            *smax = arr[i];
+            
         }
-        else 
+        
+        if(*smax ==0)
         return -1;
+
+        return *smax;
         
     }
     }
@@ -28,8 +31,8 @@ int main(){
     for(int i =0; i<=n-1; i++){
         scanf("%d",&arr[i]);
     }
-    check(arr,n,*smax,*max);
+    int result = check(arr,n,&smax,&max);
     
-    printf("%d",*smax);
+    printf("%d",result);
     return 0;
 }
