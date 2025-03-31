@@ -12,15 +12,15 @@ int main(){
     }
     int check(int arr[]){
     for(int i =0; i<n; i++)
-    if(arr[0]>arr[n-1])}{
-        printf("Not Sorted");
-        
+    if(arr[0]>arr[n-1])
+    return printf("Not Sorted");
+      else 
+      return printf("Sorted");
+    
+    
+    check(arr);
+    
     }
-    if(arr[0]<arr[n-1])
-    printf("Sorted");
-    
-    
-    
 
     
     
